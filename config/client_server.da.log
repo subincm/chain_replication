@@ -1,0 +1,45 @@
+[2014-12-01 23:31:15,933]da.api:INFO: Running iteration 1 ...
+[2014-12-01 23:31:16,137]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Receive Lifetime = 1000 Send Lifetime = 1000
+[2014-12-01 23:31:16,137]Server[('subin-Latitude-E5410', 31686)]:INFO: CITI.1 Receive Lifetime = 1000 Send Lifetime = 1000
+[2014-12-01 23:31:16,137]Server[('subin-Latitude-E5410', 24994)]:INFO: CITI.2 Receive Lifetime = 1000 Send Lifetime = 1000
+[2014-12-01 23:31:16,138]Server[('subin-Latitude-E5410', 31686)]:INFO: CITI.1 Sleeping for  13 seconds
+[2014-12-01 23:31:16,138]Client[('subin-Latitude-E5410', 38609)]:INFO: ### Client Client.CITI.0 ('subin-Latitude-E5410', 38609)  firing up...
+[2014-12-01 23:31:16,139]Client[('subin-Latitude-E5410', 38609)]:INFO: Client.CITI.0 ### Running request number  1
+[2014-12-01 23:31:16,139]Client[('subin-Latitude-E5410', 38609)]:INFO: Client.CITI.0 SENT: 1 : ('getBalance', ('UID1', 8888))  request to  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:16,139]da.api:INFO: Terminating...
+[2014-12-01 23:31:16,139]Master[('subin-Latitude-E5410', 11687)]:INFO: ### Master MASTER: ('subin-Latitude-E5410', 11687)  firing up...
+[2014-12-01 23:31:16,152]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 RECEIVED: 1 :  ('UID1', 8888)  from ('subin-Latitude-E5410', 38609)
+[2014-12-01 23:31:16,152]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Handle Client Queries
+[2014-12-01 23:31:16,152]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 SENT: 1 :  ('response', ('UID1', 8888, 'Processed', 0))  to ('subin-Latitude-E5410', 38609)
+[2014-12-01 23:31:16,154]Client[('subin-Latitude-E5410', 38609)]:INFO: Client.CITI.0 #RECEIVED: 2 : response  ('UID1', 8888, 'Processed', 0)  from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:17,138]Server[('subin-Latitude-E5410', 24994)]:INFO: CITI.2 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:17,140]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 24994)
+[2014-12-01 23:31:17,154]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:17,155]Client[('subin-Latitude-E5410', 38609)]:INFO: Client.CITI.0 ### Running request number  2
+[2014-12-01 23:31:17,156]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:17,156]Client[('subin-Latitude-E5410', 38609)]:INFO: Client.CITI.0 SENT: 2 : ('deposit', ('UID1', 8888, 100))  request to  ('subin-Latitude-E5410', 24994)
+[2014-12-01 23:31:17,159]Server[('subin-Latitude-E5410', 24994)]:INFO: CITI.2 RECEIVED: 1 : ( deposit, ('UID1', 8888, 100) ) from ('subin-Latitude-E5410', 38609)
+[2014-12-01 23:31:17,159]Server[('subin-Latitude-E5410', 24994)]:INFO: CITI.2 Handle Client Updates
+[2014-12-01 23:31:18,157]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:18,158]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:19,158]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:19,159]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:20,159]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:20,160]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:21,140]Master[('subin-Latitude-E5410', 11687)]:INFO: ### Master MASTER: ('subin-Latitude-E5410', 11687) Processing Heartbeats.
+[2014-12-01 23:31:21,140]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: Hearbeat List =  [[<Server('subin-Latitude-E5410', 24994)>, 1], [<Server('subin-Latitude-E5410', 31686)>, 0], [<Server('subin-Latitude-E5410', 14458)>, 4]]
+[2014-12-01 23:31:21,141]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: process_heartbeats: ('subin-Latitude-E5410', 31686) failed, informing servers
+[2014-12-01 23:31:21,141]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: SENT: ('server_fail', (<Server('subin-Latitude-E5410', 31686)>, <Server('subin-Latitude-E5410', 24994)>, <Server('subin-Latitude-E5410', 14458)>))  to ('subin-Latitude-E5410', 24994)
+[2014-12-01 23:31:21,143]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: SENT: ('server_fail', (<Server('subin-Latitude-E5410', 31686)>, <Server('subin-Latitude-E5410', 24994)>, <Server('subin-Latitude-E5410', 14458)>))  to ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:21,144]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: Hearbeat List of New Servers =  []
+[2014-12-01 23:31:21,146]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 RECEIVED: server_fail (<Server('subin-Latitude-E5410', 31686)>, <Server('subin-Latitude-E5410', 24994)>, <Server('subin-Latitude-E5410', 14458)>) from Master ('subin-Latitude-E5410', 11687)
+[2014-12-01 23:31:21,147]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 After Re-org, servers = [<Server('subin-Latitude-E5410', 24994)>, <Server('subin-Latitude-E5410', 14458)>] Index = 1
+[2014-12-01 23:31:21,147]Server[('subin-Latitude-E5410', 14458)]:INFO: Sent Queue in Server Fail = []
+[2014-12-01 23:31:21,161]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:21,163]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:22,163]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:22,164]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:23,165]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:23,166]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
+[2014-12-01 23:31:24,166]Server[('subin-Latitude-E5410', 14458)]:INFO: CITI.0 Send Heartbeat msg to {<Master('subin-Latitude-E5410', 11687)>}
+[2014-12-01 23:31:24,167]Master[('subin-Latitude-E5410', 11687)]:INFO: MASTER: #RECEIVED: Heartbeat message from server  ('subin-Latitude-E5410', 14458)
